@@ -1,0 +1,20 @@
+{
+  "name": "gdpr-google-analytics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dallas Read",
+  "license": "MIT",
+  "devDependencies": {
+    "html-loader": "^0.5.5",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  },
+  "dependencies": {
+    "browser-cookies": "^1.2.0",
+    "load-external": "^1.0.2"
+  }
+}
