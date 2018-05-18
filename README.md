@@ -13,8 +13,8 @@ ga('send', 'pageview');</pre>
 <h2>Does it work with other tracking services (eg. GTM, Mixpanel, Segment)?</h2>
 
 <p>
-    Yes &mdash; with only a little re-jigging! Insert the following snippet <em>prior</em> to your other tracking snippets. Add the URL of each service as a `dependency`.
-    <em>To ensure the trackers don't load by themselves, you'll want to remove any `X.src=XXXX;` code in your original tracking snippets.</em> That's it!
+    Yes &mdash; with only a little re-jigging! Insert the following snippet <em>prior</em> to your other tracking snippets. Add the URL of each service as a <code>dependency</code>.
+    <em>To ensure the trackers don't load by themselves, you'll want to remove any <code>X.src=XXXX;</code> code in your original tracking snippets.</em> That's it!
 </p>
 
 <pre>&lt;script&gt;
