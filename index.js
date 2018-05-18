@@ -62,7 +62,10 @@ _.notice = _.notice || function notice() {
 };
 
 _.resolveDependencies = _.resolveDependencies || function resolveDependencies() {
-    _.dependency.push(['https://www.google-analytics.com/analytics.js']);
+    if (!_.dependency || !_.dependency.length) {
+        _.dependency = [['https://www.google-analytics.com/analytics.js']];
+    }
+
     _.eachDependency(loadExternal);
 };
 
